@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+<Button
+    android:id="@+id/darkmodeButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Toggle" />
+
+    <EditText
+        android:id="@+id/num1AddText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Enter first number"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2AddText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColor="@color/cardview_dark_background"
+        android:hint="Enter second number"
+        android:textStyle="bold"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="1.5in"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/addTextView"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Result:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/num1SubText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Enter first number"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2SubText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColor="@color/cardview_dark_background"
+        android:hint="Enter second number"
+        android:textStyle="bold"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="1.5in"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Subtract" />
+
+    <TextView
+        android:id="@+id/subtractTextView"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Result:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
