@@ -1,2 +1,1 @@
-Little projects in C and Java
-Python may be added soon
+Working on my first app
